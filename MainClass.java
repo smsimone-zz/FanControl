@@ -41,7 +41,7 @@ public class MainClass {
                             cpuTask.setArduino(arduino);
                             cpuTask.setCpuController(cpuController);
                             cpuTask.start();
-                            System.out.println("thread partito");
+                            System.out.println("Thread started.");
                             isSet = true;
                         }
                     }
